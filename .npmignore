@@ -1,0 +1,2 @@
+# left blank for now.  the presence of the file tells npm to use it instead of .gitignore
+# we don't want to use .gitignore on npm because it ignores the css directory

@@ -1,0 +1,20 @@
+{
+  "name": "namely-ui-css",
+  "version": "0.0.1",
+  "description": "",
+  "main": "css/namely-ui.css",
+  "files": [
+    "css/namely-ui.css",
+    "css/namely-ui.min.css"
+  ],
+  "scripts": {
+    "build": "node-sass scss/namely-ui.scss css/namely-ui.css",
+    "postpublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano-cli": "^1.0.5",
+    "node-sass": "^3.10.1"
+  }
+}
