@@ -8,13 +8,20 @@
     "css/namely-ui.min.css"
   ],
   "scripts": {
-    "build": "node-sass scss/namely-ui.scss css/namely-ui.css",
+    "prebuild": "node-sass scss/namely-ui.scss css/styles.css",
+    "build:css": "postcss --use autoprefixer -b 'last 2 versions' -o css/styles.css css/styles.css",
+    "build:css:min": "postcss --use cssnano -o css/styles.min.css css/styles.css",
+    "build": "npm run build:css && npm run build:css:min",
     "postpublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "cssnano": "^3.7.6",
     "cssnano-cli": "^1.0.5",
-    "node-sass": "^3.10.1"
+    "node-sass": "^3.10.1",
+    "postcss": "^5.2.4",
+    "postcss-cli": "^2.6.0"
   }
 }
