@@ -2,7 +2,7 @@
   "name": "namely-ui-css",
   "version": "0.0.13",
   "description": "",
-  "main": "css/namely-ui.css",
+  "main": "css/styles.css",
   "files": [
     "css/namely-ui.css",
     "css/namely-ui.min.css"

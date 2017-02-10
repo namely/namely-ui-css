@@ -1,4 +1,5 @@
 [type=checkbox] {
+  @warn "This selector is deprecated! use .checkbox-white or .checkbox-blue";
   background-color: $white;
   border: 0;
   height: $space-3;
@@ -67,91 +68,20 @@
   }
 }
 
-/*.checkbox-white {
-  background-color: $white;
-  border: 0;
-  height: $space-3;
-  line-height: normal;
-  position: relative;
-  width: $space-3;
-}
-
-.checkbox-white:after {
-  background-color: $white;
-  border: 1px solid $grey-15;
-  border-radius: 3px;
-  color: $grey-50;
-  content: '';
-  cursor: pointer;
-  display: block;
-  height: $space-3;
-  position: absolute;
-  width: $space-3;
-  z-index: 1;
-}
-
-.checkbox-white:disabled::after {
-  background-color: $grey-10;
-  border-color: $grey-10;
-  border-radius: 3px;
-  content: '';
-  cursor: default;
-}
-
-.checkbox-white:disabled:hover::after {
-  border-color: $grey-10;
-}
-
-.checkbox-white:read-only {
-  background: none;
-
-  &::after {
-    background: none;
-    border: 0;
-    cursor: default;
-  }
-}
-
-.checkbox-white:read-only::after {
-  background: none;
-  border: 0;
-  cursor: default;
-}
-
-.checkbox-white:hover::after {
-  border-color: $grey-50;
-}
-
-.checkbox-white:checked {
-  @include icon(check);
-}
-
-.checkbox-white:checked::before {
-  color: $grey-50;
-  font-size: $h6;
-  left: 3px;
-  position: absolute;
-  top: 4px;
-  z-index: 2;  
-}
-
-.checkbox-white:disabled:checked::after {
-  border: 0;
-  cursor: default;
-  margin-left: 1px;
-  margin-top: 1px;
-}*/
-
 /* ------- WHITE CHECKBOX, GREY TICK ------- */
 .checkbox-white[type=checkbox] {
   -moz-appearance: checkbox; /* otherwise the styles doesn't take affect in FF */
-}
-
-.checkbox-white[type=checkbox]:checked {
   background-color: $white;
+  border: 1px solid $grey-50;
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  -webkit-appearance: none;
+  position: relative;
+  border-radius: 3px;
 }
 
-/* overrides */
+/* overrides, remove when deprecation above rule disapear */
 .checkbox-white[type=checkbox]:after, 
 .checkbox-white[type=checkbox]:before {
   background: none;
@@ -159,7 +89,7 @@
   content: "";
 }
 
-/* overrides */
+/* overrides, remove when deprecation above rule disapear */
 .checkbox-white[type=checkbox]:checked:before {
   content: "";
 }
@@ -182,13 +112,21 @@
 /* ------- BLUE CHECKBOX, WHITE TICK ------- */
 .checkbox-blue[type=checkbox] {
   -moz-appearance: checkbox; /* otherwise the styles doesn't take affect in FF */
+  background-color: $white;
+  border: 0;
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  -webkit-appearance: none;
+  position: relative;
+  border-radius: 3px;
 }
 
 .checkbox-blue[type=checkbox]:checked {
   background-color: $blue-70;
 }
 
-/* overrides */
+/* overrides, remove when deprecation above rule disapear */
 .checkbox-blue[type=checkbox]:after, 
 .checkbox-blue[type=checkbox]:before {
   background: none;
@@ -196,7 +134,7 @@
   content: "";
 }
 
-/* overrides */
+/* overrides, remove when deprecation above rule disapear */
 .checkbox-blue[type=checkbox]:checked:before {
   content: "";
 }
