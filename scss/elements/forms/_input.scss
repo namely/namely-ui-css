@@ -1,0 +1,57 @@
+@import 'checkbox';
+
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: $sans-family;
+  font-size: $h5;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  &::placeholder {
+    color: $grey-50;
+  }
+
+  &::not([readonly]):focus::placeholder {
+    color: transparent;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &.bc-orange {
+    // scss-lint:disable ImportantRule
+    border-color: $orange !important;
+    // scss-lint:disable ImportantRule
+  }
+}
+
+[type=text],
+[type=datetime],
+[type=datetime-local],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=time],
+[type=url],
+[type=week],
+.date-field input {
+  background-color: $blue-05;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color: $grey-75;
+  vertical-align: middle;
+  width: 100%;
+
+  &.disabled,
+  &:disabled {
+    background: $grey-10;
+    color: $grey-50;
+  }
+}

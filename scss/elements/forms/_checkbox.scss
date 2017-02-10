@@ -1,0 +1,217 @@
+[type=checkbox] {
+  background-color: $white;
+  border: 0;
+  height: $space-3;
+  line-height: normal;
+  position: relative;
+  width: $space-3;
+
+  &::after {
+    background-color: $white;
+    border: 1px solid $grey-15;
+    border-radius: 3px;
+    color: $grey-50;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: $space-3;
+    position: absolute;
+    width: $space-3;
+    z-index: 1;
+  }
+
+  &:disabled::after {
+    background-color: $grey-10;
+    border-color: $grey-10;
+    border-radius: 3px;
+    content: '';
+    cursor: default;
+  }
+
+  &:disabled:hover::after {
+    border-color: $grey-10;
+  }
+
+  &[readonly] {
+    background: none;
+
+    &::after {
+      background: none;
+      border: 0;
+      cursor: default;
+    }
+  }
+
+  &:hover::after {
+    border-color: $grey-50;
+  }
+
+  &:checked {
+    @include icon(check);
+
+    &::before {
+      color: $grey-50;
+      font-size: $h6;
+      left: 3px;
+      position: absolute;
+      top: 4px;
+      z-index: 2;
+    }
+  }
+
+  &:disabled:checked::after {
+    border: 0;
+    cursor: default;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+}
+
+/*.checkbox-white {
+  background-color: $white;
+  border: 0;
+  height: $space-3;
+  line-height: normal;
+  position: relative;
+  width: $space-3;
+}
+
+.checkbox-white:after {
+  background-color: $white;
+  border: 1px solid $grey-15;
+  border-radius: 3px;
+  color: $grey-50;
+  content: '';
+  cursor: pointer;
+  display: block;
+  height: $space-3;
+  position: absolute;
+  width: $space-3;
+  z-index: 1;
+}
+
+.checkbox-white:disabled::after {
+  background-color: $grey-10;
+  border-color: $grey-10;
+  border-radius: 3px;
+  content: '';
+  cursor: default;
+}
+
+.checkbox-white:disabled:hover::after {
+  border-color: $grey-10;
+}
+
+.checkbox-white:read-only {
+  background: none;
+
+  &::after {
+    background: none;
+    border: 0;
+    cursor: default;
+  }
+}
+
+.checkbox-white:read-only::after {
+  background: none;
+  border: 0;
+  cursor: default;
+}
+
+.checkbox-white:hover::after {
+  border-color: $grey-50;
+}
+
+.checkbox-white:checked {
+  @include icon(check);
+}
+
+.checkbox-white:checked::before {
+  color: $grey-50;
+  font-size: $h6;
+  left: 3px;
+  position: absolute;
+  top: 4px;
+  z-index: 2;  
+}
+
+.checkbox-white:disabled:checked::after {
+  border: 0;
+  cursor: default;
+  margin-left: 1px;
+  margin-top: 1px;
+}*/
+
+/* ------- WHITE CHECKBOX, GREY TICK ------- */
+.checkbox-white[type=checkbox] {
+  -moz-appearance: checkbox; /* otherwise the styles doesn't take affect in FF */
+}
+
+.checkbox-white[type=checkbox]:checked {
+  background-color: $white;
+}
+
+/* overrides */
+.checkbox-white[type=checkbox]:after, 
+.checkbox-white[type=checkbox]:before {
+  background: none;
+  border: none;
+  content: "";
+}
+
+/* overrides */
+.checkbox-white[type=checkbox]:checked:before {
+  content: "";
+}
+
+/* checkmark tick */
+.checkbox-white[type=checkbox]:checked:after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 4px;
+  border-bottom: 2px solid $grey-50;
+  height: 9px;
+  border-right: 2px solid $grey-50;
+  transform: rotate(45deg);
+  border-radius: 0px;
+}
+
+/* ------- BLUE CHECKBOX, WHITE TICK ------- */
+.checkbox-blue[type=checkbox] {
+  -moz-appearance: checkbox; /* otherwise the styles doesn't take affect in FF */
+}
+
+.checkbox-blue[type=checkbox]:checked {
+  background-color: $blue-70;
+}
+
+/* overrides */
+.checkbox-blue[type=checkbox]:after, 
+.checkbox-blue[type=checkbox]:before {
+  background: none;
+  border: none;
+  content: "";
+}
+
+/* overrides */
+.checkbox-blue[type=checkbox]:checked:before {
+  content: "";
+}
+
+/* checkmark tick */
+.checkbox-blue[type=checkbox]:checked:after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 4px;
+  border-bottom: 2px solid #FFF;
+  height: 9px;
+  border-right: 2px solid #FFF;
+  transform: rotate(45deg);
+  border-radius: 0px;
+}
