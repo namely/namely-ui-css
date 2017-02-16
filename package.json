@@ -4,8 +4,8 @@
   "description": "",
   "main": "css/styles.css",
   "files": [
-    "css/namely-ui.css",
-    "css/namely-ui.min.css"
+    "css/styles.css",
+    "css/styles.min.css"
   ],
   "scripts": {
     "prebuild": "node-sass scss/namely-ui.scss css/styles.css",
