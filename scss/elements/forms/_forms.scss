@@ -1,4 +1,6 @@
-input,
+@import 'input';
+@import 'checkbox';
+
 select,
 textarea {
   -moz-appearance: none;
@@ -34,19 +36,6 @@ label {
   line-height: 1;
 }
 
-[type=text],
-[type=datetime],
-[type=datetime-local],
-[type=email],
-[type=month],
-[type=number],
-[type=password],
-[type=search],
-[type=tel],
-[type=time],
-[type=url],
-[type=week],
-.date-field input,
 select,
 textarea {
   background-color: $blue-05;
@@ -192,75 +181,6 @@ select {
     option {
       padding: $space-1;
     }
-  }
-}
-
-[type=checkbox] {
-  background-color: $white;
-  border: 0;
-  height: $space-3;
-  line-height: normal;
-  position: relative;
-  width: $space-3;
-
-  &::after {
-    background-color: $white;
-    border: 1px solid $grey-15;
-    border-radius: 3px;
-    color: $grey-50;
-    content: '';
-    cursor: pointer;
-    display: block;
-    height: $space-3;
-    position: absolute;
-    width: $space-3;
-    z-index: 1;
-  }
-
-  &:disabled::after {
-    background-color: $grey-10;
-    border-color: $grey-10;
-    border-radius: 3px;
-    content: '';
-    cursor: default;
-  }
-
-  &:disabled:hover::after {
-    border-color: $grey-10;
-  }
-
-  &[readonly] {
-    background: none;
-
-    &::after {
-      background: none;
-      border: 0;
-      cursor: default;
-    }
-  }
-
-  &:hover::after {
-    border-color: $grey-50;
-  }
-
-  &:checked {
-    @include icon(check);
-
-    &::before {
-      color: $grey-50;
-      font-size: $h6;
-      left: 3px;
-      position: absolute;
-      top: 4px;
-      z-index: 2;
-    }
-  }
-
-  &:disabled:checked::after {
-    border: 0;
-    cursor: default;
-    margin-left: 1px;
-    margin-top: 1px;
   }
 }
 
