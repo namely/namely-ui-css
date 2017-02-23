@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html class="namely-ui">
 <head>
-  <title>Test</title>
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/namely-ui-css">
+  <title>Namely UI CSS</title>
+  <link href="https://unpkg.com/namely-ui-css" rel="stylesheet" type="text/css">
+  <!-- TOGGLE THIS IF YOU WANNA USE LOCAL STYLES -->
+  <!-- <link href="../css/styles.css" rel="stylesheet" type="text/css"> -->
 </head>
 <body>
-  <div class="namely-ui">
-    <p class="p2">This is a test</p>
+  <div class="p3">
+    <h1>Namely UI CSS reference</h1>
+    <h3>Checkboxes:</h3>
+    <div class="flex flex-column p2">
+      <span class="mr2">.checkbox-white</span>
+      <label class="flex flex-center p2">
+        <span class="mr2">enabled checkbox</span>
+        <input class="checkbox-white" type="checkbox">
+      </label>
+      <label class="flex flex-center p2">
+        <span class="mr2">disabled checkbox</span>
+        <input class="checkbox-white" type="checkbox" disabled>
+      </label>
+      <label class="flex flex-center p2">
+        <span class="mr2">readonly checkbox checked</span>
+        <input class="checkbox-white" type="checkbox" readonly checked>
+      </label>
+      <label class="flex flex-center p2">
+        <span class="mr2">readonly checkbox unchecked</span>
+        <input class="checkbox-white" type="checkbox" readonly>
+      </label>
+    </div>
+    <div class="flex flex-column bg-blue-80 p2">
+      <span class="mr2 white">.checkbox-blue</span>
+      <label class="flex flex-center p2 white">
+        <span class="mr2">enabled checkbox</span>
+        <input class="checkbox-blue" type="checkbox">
+      </label>
+    </div>
   </div>
 </body>
 </html>
