@@ -29,9 +29,4 @@
     url('https://dzmqh46i6l1ir.cloudfront.net/public/namely-ui.icons.svg#icons') format('svg');
 }
 
-
-// Wrap all selectors in .namely-ui namespace to eliminate style clash
-// in the consuming applications
-.namely-ui {
-  @import './app';
-}
+@import './app';
