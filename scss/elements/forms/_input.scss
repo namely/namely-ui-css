@@ -1,4 +1,4 @@
-input {
+.input {
   -moz-appearance: none;
   -webkit-appearance: none;
   font-family: $sans-family;
@@ -25,18 +25,18 @@ input {
   }
 }
 
-[type=text],
-[type=datetime],
-[type=datetime-local],
-[type=email],
-[type=month],
-[type=number],
-[type=password],
-[type=search],
-[type=tel],
-[type=time],
-[type=url],
-[type=week],
+.input-text,
+.input-datetime,
+.input-datetime-local,
+.input-email,
+.input-month,
+.input-number,
+.input-password,
+.input-search,
+.input-tel,
+.input-time,
+.input-url,
+.input-week,
 .date-field input {
   background-color: $blue-05;
   border-radius: 3px;

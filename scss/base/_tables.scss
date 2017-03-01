@@ -1,15 +1,15 @@
-table {
+.table {
   border-collapse: separate;
   border-spacing: 0;
   max-width: 100%;
   width: 100%;
 }
 
-thead tr th {
+.thead .tr .th {
   border-bottom: 3px solid $grey-25;
 }
 
-thead .secondary {
+.thead .secondary {
   th {
     border-bottom: 0;
   }
@@ -22,7 +22,7 @@ thead .secondary {
   }
 }
 
-th {
+.th {
   font-size: 1rem;
   font-weight: bold;
   padding: $space-2;
@@ -31,17 +31,17 @@ th {
 
 }
 
-th,
-td {
+.th,
+.td {
   line-height: inherit;
 }
 
-td {
+.td {
   padding: $space-2;
   vertical-align: top;
 }
 
-tbody tr {
+.tbody .tr {
 
   &:hover {
     background-color: $grey-5;
@@ -53,7 +53,7 @@ tbody tr {
   }
 }
 
-tbody tr:last-child td {
+.tbody .tr:last-child .td {
   border-bottom: 0;
 }
 

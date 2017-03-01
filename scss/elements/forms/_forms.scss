@@ -1,8 +1,8 @@
 @import 'input';
 @import 'checkbox';
 
-select,
-textarea {
+.select,
+.textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   font-family: $sans-family;
@@ -29,15 +29,15 @@ textarea {
   }
 }
 
-label {
+.label {
   color: $grey-50;
   display: inline-block;
   font-size: $h6;
   line-height: 1;
 }
 
-select,
-textarea {
+.select,
+.textarea {
   background-color: $blue-05;
   border-radius: 3px;
   border-style: solid;
@@ -54,19 +54,19 @@ textarea {
   }
 }
 
-[type=text],
-[type=datetime],
-[type=datetime-local],
-[type=email],
-[type=month],
-[type=number],
-[type=password],
-[type=search],
-[type=tel],
-[type=time],
-[type=url],
-[type=week],
-textarea {
+.input-text,
+.input-datetime,
+.input-datetime-local,
+.input-email,
+.input-month,
+.input-number,
+.input-password,
+.input-search,
+.input-tel,
+.input-time,
+.input-url,
+.input-week,
+.textarea {
   border-color: $blue-05;
 
   &:focus:not([readonly]),
@@ -120,7 +120,7 @@ textarea {
   }
 }
 
-select,
+.select,
 .simple-select {
   background-color: $white;
   border: 1px solid $grey-25;
@@ -150,7 +150,7 @@ select,
   }
 }
 
-select {
+.select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$blue-50}' stroke='#{$blue-50}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
   background-position: right 11px;
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@ select {
   }
 }
 
-[type=radio] {
+.input-radio {
   -webkit-appearance: none;
   background: none;
   border: 0;
@@ -236,7 +236,7 @@ select {
   }
 }
 
-fieldset {
+.fieldset {
   border: 0;
 }
 
@@ -449,29 +449,29 @@ fieldset {
 }
 
 // All inputs except checkbox, radio, and textarea
-[type=text],
-[type=datetime],
-[type=datetime-local],
-[type=email],
-[type=month],
-[type=number],
-[type=password],
-[type=search],
-[type=tel],
-[type=time],
-[type=url],
-[type=week],
-select,
+.input-text,
+.input-datetime,
+.input-datetime-local,
+.input-email,
+.input-month,
+.input-number,
+.input-password,
+.input-search,
+.input-tel,
+.input-time,
+.input-url,
+.input-week,
+.select,
 .date-field input {
   padding: $space-1;
 }
 
-textarea {
+.textarea {
   padding: $space-2;
 }
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+.input-number::-webkit-inner-spin-button,
+.input-number::-webkit-outer-spin-button {
   opacity: 0;
 }
 
