@@ -4,11 +4,11 @@
   "description": "``` npm install @namely/ui-css npm run build ```",
   "main": "css/styles.css",
   "scripts": {
-    "prebuild": "node-sass scss/namely-ui.scss css/styles.css",
+    "prebuild": "sass scss/namely-ui.scss css/styles.css",
     "build:css": "postcss --use autoprefixer -b 'last 2 versions' -o css/styles.css css/styles.css",
     "build:css:min": "postcss --use cssnano -o css/styles.min.css css/styles.css",
-    "build": "npm run build:css && npm run build:css:min",
-    "postpublish": "npm run build"
+    "build": "yarn run build:css && yarn run build:css:min",
+    "postpublish": "yarn run build"
   },
   "author": "",
   "license": "ISC",
@@ -16,8 +16,8 @@
     "autoprefixer": "^6.5.0",
     "cssnano": "^3.7.6",
     "cssnano-cli": "^1.0.5",
-    "node-sass": "^3.10.1",
     "postcss": "^5.2.4",
-    "postcss-cli": "^2.6.0"
+    "postcss-cli": "^2.6.0",
+    "sass": "^1.27.1"
   }
 }
