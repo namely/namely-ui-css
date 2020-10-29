@@ -1,8 +1,7 @@
 # Namely UI CSS
 
 ```
-npm install namely-ui-css
-npm run build
+yarn install namely-ui-css
 ```
 
 # CDN
@@ -36,7 +35,7 @@ For all releases, a maintainer will complete the following steps:
 1. Update the version, commit it, and tag it (all of these things will happen with the following command):
 
 ```
-npm version [<new version> | major | minor | patch]
+yarn version [<new version> | major | minor | patch]
 ```
 
 2. `git push upstream master --tags` this adds a new release to the github tags.
@@ -44,7 +43,7 @@ npm version [<new version> | major | minor | patch]
 3. Open https://github.com/namely/namely-ui-css/releases and click Edit on the right hand side of the "Latest Release".
 For the release description add relevant commit messages.
 
-4. Publish updated module to npm:
+4. Publish updated module:
 ```
-npm publish
+yarn publish
 ```
