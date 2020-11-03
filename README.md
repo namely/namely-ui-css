@@ -1,7 +1,7 @@
 # Namely UI CSS
 
 ```
-npm install namely-ui-css
+npm install @namely/ui-css
 npm run build
 ```
 
@@ -10,13 +10,13 @@ npm run build
 ```html
 
 <!-- get the latest version -->
-<link href="https://unpkg.com/namely-ui-css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/@namely/ui-css" rel="stylesheet" type="text/css">
 
 <!-- get minified -->
-<link href="https://unpkg.com/namely-ui-css/css/styles.min.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/@namely/ui-css/css/styles.min.css" rel="stylesheet" type="text/css">
 
 <!-- specify a version -->
-<link href="https://unpkg.com/namely-ui-css@SPECIFY_VERSION/css/styles.min.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/@namely/ui-css@SPECIFY_VERSION/css/styles.min.css" rel="stylesheet" type="text/css">
 ```
 
 Read more about [https://unpkg.com](https://unpkg.com)
