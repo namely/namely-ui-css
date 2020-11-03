@@ -194,7 +194,7 @@ select {
   width: $space-3;
 
   &::after {
-    border: 1px solid $grey-15;
+    border: 1px solid $ds-grey-30;
     border-radius: 50%;
     color: $ds-grey-200;
     content: '';
@@ -214,7 +214,7 @@ select {
   }
 
   &:disabled:hover::after {
-    border-color: $grey-15;
+    border-color: $ds-grey-30;
   }
 
   &:hover::after {
@@ -267,8 +267,8 @@ fieldset {
 
     &.disabled,
     &:disabled {
-      background-color: $grey-15;
-      border-color: $grey-15;
+      background-color: $ds-grey-30;
+      border-color: $ds-grey-30;
       color: $ds-grey-200;
     }
 
@@ -276,7 +276,7 @@ fieldset {
     &:hover:not([readonly]):disabled,
     &:focus:not([readonly]).disabled,
     &:hover:not([readonly]).disabled {
-      border-color: $grey-15;
+      border-color: $ds-grey-30;
     }
   }
 
@@ -287,8 +287,8 @@ fieldset {
     }
 
     input:disabled {
-      background-color: $grey-15;
-      border-color: $grey-15;
+      background-color: $ds-grey-30;
+      border-color: $ds-grey-30;
       color: $ds-grey-200;
     }
 
@@ -299,7 +299,7 @@ fieldset {
 
     &:focus input:disabled,
     &:hover input:disabled {
-      border-color: $grey-15;
+      border-color: $ds-grey-30;
     }
 
     &.disabled .icon-calendar {
@@ -317,13 +317,13 @@ fieldset {
     }
 
     &:disabled::after {
-      background-color: $grey-15;
-      border-color: $grey-15;
+      background-color: $ds-grey-30;
+      border-color: $ds-grey-30;
     }
 
     &:focus:not([readonly]):disabled::after,
     &:hover:not([readonly]):disabled::after {
-      border-color: $grey-15;
+      border-color: $ds-grey-30;
     }
   }
 
