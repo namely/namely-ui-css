@@ -43,7 +43,7 @@ textarea {
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  color: $grey-75;
+  color: $ds-grey-60;
   vertical-align: middle;
   width: 100%;
 
@@ -356,8 +356,8 @@ fieldset {
 
     &.disabled,
     &:disabled {
-      background-color: $grey-75;
-      border-color: $grey-75;
+      background-color: $ds-grey-60;
+      border-color: $ds-grey-60;
       color: $ds-grey-200;
     }
 
@@ -365,7 +365,7 @@ fieldset {
     &:hover:not([readonly]):disabled,
     &:focus:not([readonly]).disabled,
     &:hover:not([readonly]):disabled {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
   }
 
@@ -374,8 +374,8 @@ fieldset {
 
     &.disabled,
     &:disabled {
-      background-color: $grey-75;
-      border-color: $grey-75;
+      background-color: $ds-grey-60;
+      border-color: $ds-grey-60;
       color: $ds-grey-200;
     }
 
@@ -383,7 +383,7 @@ fieldset {
     &:disabled:hover:not([readonly]),
     &:disabled:focus:not([readonly]),
     &.disabled:hover:not([readonly]) {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
 
     &:focus:not([readonly]),
@@ -401,16 +401,16 @@ fieldset {
 
     &.disabled,
     &:disabled {
-      background: $grey-75;
-      border-color: $grey-75;
-      color: $grey-75;
+      background: $ds-grey-60;
+      border-color: $ds-grey-60;
+      color: $ds-grey-60;
     }
 
     &:focus.disabled,
     &:hover:disabled,
     &:focus.disabled,
     &:hover:disabled {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
   }
 
@@ -420,7 +420,7 @@ fieldset {
 
     &::after {
       background-color: $white;
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
 
     &:focus:not([readonly])::after,
@@ -433,18 +433,18 @@ fieldset {
     }
 
     &:disabled::after {
-      background-color: $grey-75;
-      border-color: $grey-75;
+      background-color: $ds-grey-60;
+      border-color: $ds-grey-60;
     }
 
     &:focus:not([readonly]):disabled::after,
     &:hover:not([readonly]):disabled::after {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
   }
 
   hr {
-    border-color: $grey-75;
+    border-color: $ds-grey-60;
   }
 }
 
