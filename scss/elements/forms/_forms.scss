@@ -416,7 +416,7 @@ fieldset {
 
   [type=checkbox],
   [type=radio] {
-    background-color: $blue-95;
+    background-color: $ds-grey-60;
 
     &::after {
       background-color: $white;
@@ -429,7 +429,7 @@ fieldset {
     }
 
     &[readonly]::after {
-      background-color: $blue-95;
+      background-color: $ds-grey-60;
     }
 
     &:disabled::after {
