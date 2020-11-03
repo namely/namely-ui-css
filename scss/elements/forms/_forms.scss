@@ -11,7 +11,7 @@ textarea {
   margin-top: 0;
 
   &::placeholder {
-    color: $ds-grey-200;
+    color: $ds-grey-20;
   }
 
   &::not([readonly]):focus::placeholder {
@@ -30,7 +30,7 @@ textarea {
 }
 
 label {
-  color: $ds-grey-200;
+  color: $ds-grey-20;
   display: inline-block;
   font-size: $h6;
   line-height: 1;
@@ -50,7 +50,7 @@ textarea {
   &.disabled,
   &:disabled {
     background: $ds-grey-30;
-    color: $ds-grey-200;
+    color: $ds-grey-20;
   }
 }
 
@@ -116,7 +116,7 @@ textarea {
   }
 
   &.disabled .icon-calendar {
-    color: $ds-grey-200;
+    color: $ds-grey-20;
   }
 }
 
@@ -126,7 +126,7 @@ select,
   border: 1px solid $grey-25;
 
   &.bc-grey-50 {
-    border-color: $ds-grey-200;
+    border-color: $ds-grey-20;
   }
 
   &.bc-orange {
@@ -146,7 +146,7 @@ select,
 
   &:focus,
   &:hover {
-    border-color: $ds-grey-200;
+    border-color: $ds-grey-20;
   }
 }
 
@@ -163,7 +163,7 @@ select {
 
   &:disabled,
   &:disabled:hover {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$ds-grey-200}' stroke='#{$ds-grey-200}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$ds-grey-20}' stroke='#{$ds-grey-20}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
     background-position: right 11px;
     background-repeat: no-repeat;
     background-size: 23px 8px;
@@ -196,7 +196,7 @@ select {
   &::after {
     border: 1px solid $ds-grey-30;
     border-radius: 50%;
-    color: $ds-grey-200;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -218,11 +218,11 @@ select {
   }
 
   &:hover::after {
-    border-color: $ds-grey-200;
+    border-color: $ds-grey-20;
   }
 
   &:checked::before {
-    background: $ds-grey-200;
+    background: $ds-grey-20;
     border: 0;
     border-radius: 5px;
     content: '';
@@ -262,14 +262,14 @@ fieldset {
 
     &:focus:not([readonly]),
     &:hover:not([readonly]) {
-      border-color: $ds-grey-200;
+      border-color: $ds-grey-20;
     }
 
     &.disabled,
     &:disabled {
       background-color: $ds-grey-30;
       border-color: $ds-grey-30;
-      color: $ds-grey-200;
+      color: $ds-grey-20;
     }
 
     &:focus:not([readonly]):disabled,
@@ -289,12 +289,12 @@ fieldset {
     input:disabled {
       background-color: $ds-grey-30;
       border-color: $ds-grey-30;
-      color: $ds-grey-200;
+      color: $ds-grey-20;
     }
 
     &:focus input,
     &:hover input {
-      border-color: $ds-grey-200;
+      border-color: $ds-grey-20;
     }
 
     &:focus input:disabled,
@@ -303,7 +303,7 @@ fieldset {
     }
 
     &.disabled .icon-calendar {
-      color: $ds-grey-200;
+      color: $ds-grey-20;
     }
   }
 
@@ -358,7 +358,7 @@ fieldset {
     &:disabled {
       background-color: $ds-grey-60;
       border-color: $ds-grey-60;
-      color: $ds-grey-200;
+      color: $ds-grey-20;
     }
 
     &:focus:not([readonly]).disabled,
@@ -376,7 +376,7 @@ fieldset {
     &:disabled {
       background-color: $ds-grey-60;
       border-color: $ds-grey-60;
-      color: $ds-grey-200;
+      color: $ds-grey-20;
     }
 
     &.disabled:focus:not([readonly]),
@@ -502,7 +502,7 @@ textarea {
     .icon-arrow-double,
     .icon-arrow-down,
     .icon-arrow-up {
-      color: $ds-grey-200;
+      color: $ds-grey-20;
     }
   }
 }

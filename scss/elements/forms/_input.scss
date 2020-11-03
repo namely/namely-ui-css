@@ -7,7 +7,7 @@ input {
   margin-top: 0;
 
   &::placeholder {
-    color: $ds-grey-200;
+    color: $ds-grey-20;
   }
 
   &::not([readonly]):focus::placeholder {
@@ -50,6 +50,6 @@ input {
   &.disabled,
   &:disabled {
     background: $ds-grey-30;
-    color: $ds-grey-200;
+    color: $ds-grey-20;
   }
 }

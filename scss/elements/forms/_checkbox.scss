@@ -11,7 +11,7 @@
     background-color: $white;
     border: 1px solid $ds-grey-30;
     border-radius: 3px;
-    color: $ds-grey-200;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -44,14 +44,14 @@
   }
 
   &:hover::after {
-    border-color: $ds-grey-200;
+    border-color: $ds-grey-20;
   }
 
   &:checked {
     @include icon(check);
 
     &::before {
-      color: $ds-grey-200;
+      color: $ds-grey-20;
       font-size: $h6;
       left: 3px;
       position: absolute;
@@ -81,7 +81,7 @@
     background-color: $white;
     border: 1px solid $ds-grey-30;
     border-radius: 3px;
-    color: $ds-grey-200;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -114,14 +114,14 @@
   }
 
   &:hover::after {
-    border-color: $ds-grey-200;
+    border-color: $ds-grey-20;
   }
 
   &:checked {
     @include icon(check);
 
     &::before {
-      color: $ds-grey-200;
+      color: $ds-grey-20;
       font-size: $h6;
       left: 3px;
       position: absolute;
