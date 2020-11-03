@@ -1,6 +1,6 @@
 // Secondary Button
 .button-secondary {
-  background: $blue-50;
+  background: $ds-blue-40;
 
   &:hover {
     background: $blue-70;
@@ -50,7 +50,7 @@
   }
 
   &.button-secondary {
-    color: $blue-50;
+    color: $ds-blue-40;
 
     &:hover {
       color: $blue-70;

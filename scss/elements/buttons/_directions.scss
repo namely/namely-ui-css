@@ -4,14 +4,14 @@ $arrow-position: -($h2 / 2);
 $arrow-top: ($directional-button-height * 0.25) / 2;
 
 .button-previous {
-  background: $blue-50;
+  background: $ds-blue-40;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
   margin-left: 1em;
   padding-left: $space-1;
 
   &::before {
-    background: $blue-50;
+    background: $ds-blue-40;
     content: '';
     height: $arrow-dimensions;
     left: $arrow-position;
