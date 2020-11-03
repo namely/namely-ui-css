@@ -3,7 +3,7 @@
   background: $ds-blue-40;
 
   &:hover {
-    background: $blue-70;
+    background: $ds-blue-40;
   }
 
   &:active {
@@ -15,7 +15,7 @@
   background: $blue-25;
 
   &:hover {
-    background: $blue-70;
+    background: $ds-blue-40;
   }
 
   &:active {
@@ -39,7 +39,7 @@
 // Link Button
 .button-link {
   background: none;
-  color: $blue-70;
+  color: $ds-blue-40;
   font-size: $h5;
   font-weight: bold;
   padding: 0;
@@ -53,7 +53,7 @@
     color: $ds-blue-40;
 
     &:hover {
-      color: $blue-70;
+      color: $ds-blue-40;
     }
 
     &:active {
@@ -77,7 +77,7 @@
     color: $blue-25;
 
     &:hover {
-      color: $blue-70;
+      color: $ds-blue-40;
     }
 
     &:active {

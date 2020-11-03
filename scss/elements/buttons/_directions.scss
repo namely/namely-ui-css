@@ -20,10 +20,10 @@ $arrow-top: ($directional-button-height * 0.25) / 2;
   }
 
   &:hover {
-    background: $blue-70;
+    background: $ds-blue-40;
 
     &::before {
-      background: $blue-70;
+      background: $ds-blue-40;
     }
   }
 
@@ -43,7 +43,7 @@ $arrow-top: ($directional-button-height * 0.25) / 2;
   padding-right: $space-1;
 
   &::after {
-    background: $blue-70;
+    background: $ds-blue-40;
     content: '';
     height: $arrow-dimensions;
     right: $arrow-position;
