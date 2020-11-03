@@ -1,39 +1,49 @@
 // generated from ./src/lib/_colors.json by gulp-json-sass
 
+// New DS colors 2020
+$ds-blue-10:  #e5f3ff;
+$ds-blue-30:  #4686ff;
+$ds-blue-40:  #276df6;
+$ds-grey-10:  #f9f9f9;
+$ds-grey-20:  #f3f3f4;
+$ds-grey-30:  #dcdee0;
+$ds-grey-50:  #6e757c;
+$ds-grey-60:  #2a3742;
+
 $white: #ffffff;
 .white { color: $white; }
 .bg-white { background-color: $white; }
 .bc-white { border-color: $white; }
 
-$blue-25: #a1d2ff;
-.blue-25 { color: $blue-25; }
-.bg-blue-25 { background-color: $blue-25; }
-.bc-blue-25 { border-color: $blue-25; }
+// previously $blue-50: #009ffb;
+.blue-50 { color: $ds-blue-40; }
+.bg-blue-50 { background-color: $ds-blue-40; }
+.bc-blue-50 { border-color: $ds-blue-40; }
 
-$blue-50: #009ffb;
-.blue-50 { color: $blue-50; }
-.bg-blue-50 { background-color: $blue-50; }
-.bc-blue-50 { border-color: $blue-50; }
+// previously $blue-70: #186bb7;
+.blue-70 { color: $ds-blue-40; }
+.bg-blue-70 { background-color: $ds-blue-40; }
+.bc-blue-70 { border-color: $ds-blue-40; }
 
-$blue-70: #186bb7;
-.blue-70 { color: $blue-70; }
-.bg-blue-70 { background-color: $blue-70; }
-.bc-blue-70 { border-color: $blue-70; }
+// previously $blue-80: #0e3e6b;
+.blue-80 { color: $ds-blue-30; }
+.bg-blue-80 { background-color: $ds-blue-30; }
+.bc-blue-80 { border-color: $ds-blue-30; }
 
-$blue-80: #0e3e6b;
-.blue-80 { color: $blue-80; }
-.bg-blue-80 { background-color: $blue-80; }
-.bc-blue-80 { border-color: $blue-80; }
+// previously $blue-05: #eaf5ff;
+.blue-05 { color: $ds-blue-10; }
+.bg-blue-05 { background-color: $ds-blue-10; }
+.bc-blue-05 { border-color: $ds-blue-10; }
 
-$blue-95: #13293f;
-.blue-95 { color: $blue-95; }
-.bg-blue-95 { background-color: $blue-95; }
-.bc-blue-95 { border-color: $blue-95; }
+// previously $blue-25: #a1d2ff;
+.blue-25 { color: $ds-blue-40; }
+.bg-blue-25 { background-color: $ds-blue-40; }
+.bc-blue-25 { border-color: $ds-blue-40; }
 
-$blue-05: #eaf5ff;
-.blue-05 { color: $blue-05; }
-.bg-blue-05 { background-color: $blue-05; }
-.bc-blue-05 { border-color: $blue-05; }
+// previously $blue-95: #13293f;
+.blue-95 { color: $ds-grey-60; }
+.bg-blue-95 { background-color: $ds-grey-60; }
+.bc-blue-95 { border-color: $ds-grey-60; }
 
 $orange: #e05b18;
 .orange { color: $orange; }
@@ -135,47 +145,47 @@ $purple-dark: #582e63;
 .bg-purple-dark { background-color: $purple-dark; }
 .bc-purple-dark { border-color: $purple-dark; }
 
-$grey-3:  #f9f9f9;
-.grey-3 { color: $grey-3; }
-.bg-grey-3 { background-color: $grey-3; }
-.bc-grey-3 { border-color: $grey-3; }
+// previously $grey-3:  #f9f9f9;
+.grey-3 { color: $ds-grey-10; }
+.bg-grey-3 { background-color: $ds-grey-10; }
+.bc-grey-3 { border-color: $ds-grey-10; }
 
-$grey-5:  #f3f3f4;
-.grey-5 { color: $grey-5; }
-.bg-grey-5 { background-color: $grey-5; }
-.bc-grey-5 { border-color: $grey-5; }
+// previoulsy $grey-5:  #f3f3f4;
+.grey-5 { color: $grey-20; }
+.bg-grey-5 { background-color: $grey-20; }
+.bc-grey-5 { border-color: $grey-20; }
 
-$grey-10:  #e7e8ea;
-.grey-10 { color: $grey-10; }
-.bg-grey-10 { background-color: $grey-10; }
-.bc-grey-10 { border-color: $grey-10; }
+// previously $grey-10:  #e7e8ea;
+.grey-10 { color: $ds-grey-30; }
+.bg-grey-10 { background-color: $ds-grey-30; }
+.bc-grey-10 { border-color: $ds-grey-30; }
 
-$grey-15:  #dcdee0;
-.grey-15 { color: $grey-15; }
-.bg-grey-15 { background-color: $grey-15; }
-.bc-grey-15 { border-color: $grey-15; }
+// previously $grey-15:  #dcdee0;
+.grey-15 { color: $ds-grey-30; }
+.bg-grey-15 { background-color: $ds-grey-30; }
+.bc-grey-15 { border-color: $ds-grey-30; }
 
 $grey-25:  #c4c7ca;
 .grey-25 { color: $grey-25; }
 .bg-grey-25 { background-color: $grey-25; }
 .bc-grey-25 { border-color: $grey-25; }
 
-$grey-50:  #899096;
-.grey-50 { color: $grey-50; }
-.bg-grey-50 { background-color: $grey-50; }
-.bc-grey-50 { border-color: $grey-50; }
+// previously $grey-50:  #899096;
+.grey-50 { color: $ds-grey-50; }
+.bg-grey-50 { background-color: $ds-grey-50; }
+.bc-grey-50 { border-color: $ds-grey-50; }
 
-$grey-75:  #4f5962;
-.grey-75 { color: $grey-75; }
-.bg-grey-75 { background-color: $grey-75; }
-.bc-grey-75 { border-color: $grey-75; }
+// previously $grey-75:  #4f5962;
+.grey-75 { color: $ds-grey-60; }
+.bg-grey-75 { background-color: $ds-grey-60; }
+.bc-grey-75 { border-color: $ds-grey-60; }
 
-$grey-90:  #2b3742;
-.grey-90 { color: $grey-90; }
-.bg-grey-90 { background-color: $grey-90; }
-.bc-grey-90 { border-color: $grey-90; }
+// previously $grey-90:  #2b3742;
+.grey-90 { color: $ds-grey-60; }
+.bg-grey-90 { background-color: $ds-grey-60; }
+.bc-grey-90 { border-color: $ds-grey-60; }
 
-$grey-95:  #14212d;
-.grey-95 { color: $grey-95; }
-.bg-grey-95 { background-color: $grey-95; }
-.bc-grey-95 { border-color: $grey-95; }
+// perviously $grey-95:  #14212d;
+.grey-95 { color: $ds-grey-60; }
+.bg-grey-95 { background-color: $ds-grey-60; }
+.bc-grey-95 { border-color: $ds-grey-60; }
