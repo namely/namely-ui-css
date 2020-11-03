@@ -7,7 +7,7 @@
   }
 
   &:active {
-    background: $blue-80;
+    background: $ds-blue-30;
   }
 }
 
@@ -19,7 +19,7 @@
   }
 
   &:active {
-    background: $blue-80;
+    background: $ds-blue-30;
   }
 }
 
@@ -46,7 +46,7 @@
 
   &:hover, &:active {
     background: none;
-    color: $blue-80;
+    color: $ds-blue-30;
   }
 
   &.button-secondary {
@@ -57,7 +57,7 @@
     }
 
     &:active {
-      color: $blue-80;
+      color: $ds-blue-30;
     }
   }
 
@@ -81,7 +81,7 @@
     }
 
     &:active {
-      color: $blue-80;
+      color: $ds-blue-30;
     }
   }
 
