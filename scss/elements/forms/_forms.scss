@@ -71,7 +71,7 @@ textarea {
 
   &:focus:not([readonly]),
   &:hover:not([readonly]) {
-    border-color: $blue-25;
+    border-color: $ds-blue-40;
   }
 
   &:disabled,
@@ -102,7 +102,7 @@ textarea {
 
   &:focus input,
   &:hover input {
-    border-color: $blue-25;
+    border-color: $ds-blue-40;
   }
 
   &:focus .icon-calendar,
