@@ -1,7 +1,7 @@
 # Namely UI CSS
 
 ```
-npm install namely-ui-css
+npm install @namely/ui-css
 npm run build
 ```
 
@@ -10,13 +10,13 @@ npm run build
 ```html
 
 <!-- get the latest version -->
-<link href="https://unpkg.com/namely-ui-css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/@namely/ui-css" rel="stylesheet" type="text/css">
 
 <!-- get minified -->
-<link href="https://unpkg.com/namely-ui-css/css/styles.min.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/@namely/ui-css/css/styles.min.css" rel="stylesheet" type="text/css">
 
 <!-- specify a version -->
-<link href="https://unpkg.com/namely-ui-css@SPECIFY_VERSION/css/styles.min.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/@namely/ui-css@SPECIFY_VERSION/css/styles.min.css" rel="stylesheet" type="text/css">
 ```
 
 Read more about [https://unpkg.com](https://unpkg.com)
@@ -41,7 +41,7 @@ npm version [<new version> | major | minor | patch]
 
 2. `git push upstream master --tags` this adds a new release to the github tags.
 
-3. Open https://github.com/namely/namely-ui-css/releases and click Edit on the right hand side of the "Latest Release".
+3. Open https://github.com/namely/@namely/ui-css/releases and click Edit on the right hand side of the "Latest Release".
 For the release description add relevant commit messages.
 
 4. Publish updated module to npm:
