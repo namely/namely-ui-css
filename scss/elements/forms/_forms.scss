@@ -11,7 +11,7 @@ textarea {
   margin-top: 0;
 
   &::placeholder {
-    color: $grey-50;
+    color: $ds-grey-20;
   }
 
   &::not([readonly]):focus::placeholder {
@@ -30,7 +30,7 @@ textarea {
 }
 
 label {
-  color: $grey-50;
+  color: $ds-grey-20;
   display: inline-block;
   font-size: $h6;
   line-height: 1;
@@ -38,19 +38,19 @@ label {
 
 select,
 textarea {
-  background-color: $blue-05;
+  background-color: $ds-blue-10;
   border-radius: 3px;
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  color: $grey-75;
+  color: $ds-grey-60;
   vertical-align: middle;
   width: 100%;
 
   &.disabled,
   &:disabled {
-    background: $grey-10;
-    color: $grey-50;
+    background: $ds-grey-30;
+    color: $ds-grey-20;
   }
 }
 
@@ -67,20 +67,20 @@ textarea {
 [type=url],
 [type=week],
 textarea {
-  border-color: $blue-05;
+  border-color: $ds-blue-10;
 
   &:focus:not([readonly]),
   &:hover:not([readonly]) {
-    border-color: $blue-25;
+    border-color: $ds-blue-40;
   }
 
   &:disabled,
   &.disabled {
-    border-color: $grey-10;
+    border-color: $ds-grey-30;
 
     &:focus:not([readonly]),
     &:hover:not([readonly]) {
-      border-color: $grey-10;
+      border-color: $ds-grey-30;
     }
   }
 }
@@ -89,34 +89,34 @@ textarea {
 .date-field {
 
   .icon-calendar {
-    color: $blue-50;
+    color: $ds-blue-40;
   }
 
   input {
-    border-color: $blue-05;
+    border-color: $ds-blue-10;
 
     &:disabled {
-      border-color: $grey-10;
+      border-color: $ds-grey-30;
     }
   }
 
   &:focus input,
   &:hover input {
-    border-color: $blue-25;
+    border-color: $ds-blue-40;
   }
 
   &:focus .icon-calendar,
   &:hover .icon-calendar {
-    color: $blue-70;
+    color: $ds-blue-40;
   }
 
   &:focus input:disabled,
   &:hover input:disabled {
-    border-color: $grey-10;
+    border-color: $ds-grey-30;
   }
 
   &.disabled .icon-calendar {
-    color: $grey-50;
+    color: $ds-grey-20;
   }
 }
 
@@ -126,7 +126,7 @@ select,
   border: 1px solid $grey-25;
 
   &.bc-grey-50 {
-    border-color: $grey-50;
+    border-color: $ds-grey-20;
   }
 
   &.bc-orange {
@@ -135,35 +135,35 @@ select,
 
   &.disabled,
   &:disabled {
-    background-color: $grey-10;
-    border-color: $grey-10;
+    background-color: $ds-grey-30;
+    border-color: $ds-grey-30;
   }
 
   &.disabled:hover,
   &:disabled:hover {
-    border-color: $grey-10;
+    border-color: $ds-grey-30;
   }
 
   &:focus,
   &:hover {
-    border-color: $grey-50;
+    border-color: $ds-grey-20;
   }
 }
 
 select {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$blue-50}' stroke='#{$blue-50}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$ds-blue-40}' stroke='#{$ds-blue-40}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
   background-position: right 11px;
   background-repeat: no-repeat;
   background-size: 23px 8px;
   height: 31.5px;
 
   &:hover {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$blue-70}' stroke='#{$blue-70}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$ds-blue-40}' stroke='#{$ds-blue-40}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
   }
 
   &:disabled,
   &:disabled:hover {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$grey-50}' stroke='#{$grey-50}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23 8'%3E %3Cpolygon fill='#{$ds-grey-20}' stroke='#{$ds-grey-20}' points='12.209,0.5 6.708,6.5 1.208,0.5 '/%3E %3C/svg%3E");
     background-position: right 11px;
     background-repeat: no-repeat;
     background-size: 23px 8px;
@@ -194,9 +194,9 @@ select {
   width: $space-3;
 
   &::after {
-    border: 1px solid $grey-15;
+    border: 1px solid $ds-grey-30;
     border-radius: 50%;
-    color: $grey-50;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -208,21 +208,21 @@ select {
   }
 
   &:disabled::after {
-    background: $grey-10;
-    border-color: $grey-10;
+    background: $ds-grey-30;
+    border-color: $ds-grey-30;
     cursor: default;
   }
 
   &:disabled:hover::after {
-    border-color: $grey-15;
+    border-color: $ds-grey-30;
   }
 
   &:hover::after {
-    border-color: $grey-50;
+    border-color: $ds-grey-20;
   }
 
   &:checked::before {
-    background: $grey-50;
+    background: $ds-grey-20;
     border: 0;
     border-radius: 5px;
     content: '';
@@ -262,21 +262,21 @@ fieldset {
 
     &:focus:not([readonly]),
     &:hover:not([readonly]) {
-      border-color: $grey-50;
+      border-color: $ds-grey-20;
     }
 
     &.disabled,
     &:disabled {
-      background-color: $grey-15;
-      border-color: $grey-15;
-      color: $grey-50;
+      background-color: $ds-grey-30;
+      border-color: $ds-grey-30;
+      color: $ds-grey-20;
     }
 
     &:focus:not([readonly]):disabled,
     &:hover:not([readonly]):disabled,
     &:focus:not([readonly]).disabled,
     &:hover:not([readonly]).disabled {
-      border-color: $grey-15;
+      border-color: $ds-grey-30;
     }
   }
 
@@ -287,29 +287,29 @@ fieldset {
     }
 
     input:disabled {
-      background-color: $grey-15;
-      border-color: $grey-15;
-      color: $grey-50;
+      background-color: $ds-grey-30;
+      border-color: $ds-grey-30;
+      color: $ds-grey-20;
     }
 
     &:focus input,
     &:hover input {
-      border-color: $grey-50;
+      border-color: $ds-grey-20;
     }
 
     &:focus input:disabled,
     &:hover input:disabled {
-      border-color: $grey-15;
+      border-color: $ds-grey-30;
     }
 
     &.disabled .icon-calendar {
-      color: $grey-50;
+      color: $ds-grey-20;
     }
   }
 
   [type=checkbox],
   [type=radio] {
-    background-color: $grey-10;
+    background-color: $ds-grey-30;
 
     &::after {
       background-color: $white;
@@ -317,13 +317,13 @@ fieldset {
     }
 
     &:disabled::after {
-      background-color: $grey-15;
-      border-color: $grey-15;
+      background-color: $ds-grey-30;
+      border-color: $ds-grey-30;
     }
 
     &:focus:not([readonly]):disabled::after,
     &:hover:not([readonly]):disabled::after {
-      border-color: $grey-15;
+      border-color: $ds-grey-30;
     }
   }
 
@@ -351,21 +351,21 @@ fieldset {
 
     &:focus:not([readonly]),
     &:hover:not([readonly]) {
-      border-color: $blue-50;
+      border-color: $ds-blue-40;
     }
 
     &.disabled,
     &:disabled {
-      background-color: $grey-75;
-      border-color: $grey-75;
-      color: $grey-50;
+      background-color: $ds-grey-60;
+      border-color: $ds-grey-60;
+      color: $ds-grey-20;
     }
 
     &:focus:not([readonly]).disabled,
     &:hover:not([readonly]):disabled,
     &:focus:not([readonly]).disabled,
     &:hover:not([readonly]):disabled {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
   }
 
@@ -374,21 +374,21 @@ fieldset {
 
     &.disabled,
     &:disabled {
-      background-color: $grey-75;
-      border-color: $grey-75;
-      color: $grey-50;
+      background-color: $ds-grey-60;
+      border-color: $ds-grey-60;
+      color: $ds-grey-20;
     }
 
     &.disabled:focus:not([readonly]),
     &:disabled:hover:not([readonly]),
     &:disabled:focus:not([readonly]),
     &.disabled:hover:not([readonly]) {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
 
     &:focus:not([readonly]),
     &:hover:not([readonly]) {
-      border-color: $blue-50;
+      border-color: $ds-blue-40;
     }
   }
 
@@ -396,55 +396,55 @@ fieldset {
 
     &:focus,
     &:hover {
-      border-color: $blue-50;
+      border-color: $ds-blue-40;
     }
 
     &.disabled,
     &:disabled {
-      background: $grey-75;
-      border-color: $grey-75;
-      color: $grey-75;
+      background: $ds-grey-60;
+      border-color: $ds-grey-60;
+      color: $ds-grey-60;
     }
 
     &:focus.disabled,
     &:hover:disabled,
     &:focus.disabled,
     &:hover:disabled {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
   }
 
   [type=checkbox],
   [type=radio] {
-    background-color: $blue-95;
+    background-color: $ds-grey-60;
 
     &::after {
       background-color: $white;
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
 
     &:focus:not([readonly])::after,
     &:hover:not([readonly])::after {
-      border-color: $blue-50;
+      border-color: $ds-blue-40;
     }
 
     &[readonly]::after {
-      background-color: $blue-95;
+      background-color: $ds-grey-60;
     }
 
     &:disabled::after {
-      background-color: $grey-75;
-      border-color: $grey-75;
+      background-color: $ds-grey-60;
+      border-color: $ds-grey-60;
     }
 
     &:focus:not([readonly]):disabled::after,
     &:hover:not([readonly]):disabled::after {
-      border-color: $grey-75;
+      border-color: $ds-grey-60;
     }
   }
 
   hr {
-    border-color: $grey-75;
+    border-color: $ds-grey-60;
   }
 }
 
@@ -482,7 +482,7 @@ textarea {
   .icon-arrow-double,
   .icon-arrow-down,
   .icon-arrow-up {
-    color: $blue-50;
+    color: $ds-blue-40;
   }
 
   &:focus:not([readonly]),
@@ -491,7 +491,7 @@ textarea {
     .icon-arrow-double,
     .icon-arrow-down,
     .icon-arrow-up {
-      color: $blue-70;
+      color: $ds-blue-40;
     }
   }
 
@@ -502,7 +502,7 @@ textarea {
     .icon-arrow-double,
     .icon-arrow-down,
     .icon-arrow-up {
-      color: $grey-50;
+      color: $ds-grey-20;
     }
   }
 }

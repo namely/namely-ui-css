@@ -15,11 +15,11 @@
 ----------------------------------*/
 
 a {
-  color: $blue-70;
+  color: $ds-blue-40;
   text-decoration: none;
 
   &:hover {
-    color: $blue-80;
+    color: $ds-blue-30;
     cursor: pointer;
   }
 
@@ -31,7 +31,7 @@ a {
 
 .popover.dark a, // TODO - NUI-debt - just this line
 .tooltip a {
-  color: $blue-25;
+  color: $ds-blue-40;
 
   &:hover {
     color: $white;

@@ -7,7 +7,7 @@ input {
   margin-top: 0;
 
   &::placeholder {
-    color: $grey-50;
+    color: $ds-grey-20;
   }
 
   &::not([readonly]):focus::placeholder {
@@ -38,18 +38,18 @@ input {
 [type=url],
 [type=week],
 .date-field input {
-  background-color: $blue-05;
+  background-color: $ds-blue-10;
   border-radius: 3px;
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  color: $grey-75;
+  color: $ds-grey-60;
   vertical-align: middle;
   width: 100%;
 
   &.disabled,
   &:disabled {
-    background: $grey-10;
-    color: $grey-50;
+    background: $ds-grey-30;
+    color: $ds-grey-20;
   }
 }

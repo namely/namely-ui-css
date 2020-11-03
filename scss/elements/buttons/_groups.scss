@@ -13,7 +13,7 @@
 
 .button-group-actions {
   @extend %flex;
-  border-top: 1px solid $grey-10;
+  border-top: 1px solid $ds-grey-30;
   justify-content: flex-end;
 
   .button-group {

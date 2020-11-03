@@ -16,7 +16,7 @@ thead .secondary {
 
   th:last-child {
     border-bottom: 1px solid $grey-25;
-    color: $grey-50;
+    color: $ds-grey-20;
     font-weight: normal;
     text-transform: uppercase;
   }
@@ -44,11 +44,11 @@ td {
 tbody tr {
 
   &:hover {
-    background-color: $grey-5;
+    background-color: $ds-grey-20;
   }
 
   td {
-    border-bottom: 1px solid $grey-5;
+    border-bottom: 1px solid $ds-grey-20;
     margin-bottom: 0rem;
   }
 }

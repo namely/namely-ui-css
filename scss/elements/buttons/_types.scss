@@ -1,25 +1,25 @@
 // Secondary Button
 .button-secondary {
-  background: $blue-50;
+  background: $ds-blue-40;
 
   &:hover {
-    background: $blue-70;
+    background: $ds-blue-40;
   }
 
   &:active {
-    background: $blue-80;
+    background: $ds-blue-30;
   }
 }
 
 .button-baby {
-  background: $blue-25;
+  background: $ds-blue-40;
 
   &:hover {
-    background: $blue-70;
+    background: $ds-blue-40;
   }
 
   &:active {
-    background: $blue-80;
+    background: $ds-blue-30;
   }
 }
 
@@ -39,25 +39,25 @@
 // Link Button
 .button-link {
   background: none;
-  color: $blue-70;
+  color: $ds-blue-40;
   font-size: $h5;
   font-weight: bold;
   padding: 0;
 
   &:hover, &:active {
     background: none;
-    color: $blue-80;
+    color: $ds-blue-30;
   }
 
   &.button-secondary {
-    color: $blue-50;
+    color: $ds-blue-40;
 
     &:hover {
-      color: $blue-70;
+      color: $ds-blue-40;
     }
 
     &:active {
-      color: $blue-80;
+      color: $ds-blue-30;
     }
   }
 
@@ -74,14 +74,14 @@
   }
 
   &.button-baby {
-    color: $blue-25;
+    color: $ds-blue-40;
 
     &:hover {
-      color: $blue-70;
+      color: $ds-blue-40;
     }
 
     &:active {
-      color: $blue-80;
+      color: $ds-blue-30;
     }
   }
 

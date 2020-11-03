@@ -9,9 +9,9 @@
 
   &::after {
     background-color: $white;
-    border: 1px solid $grey-15;
+    border: 1px solid $ds-grey-30;
     border-radius: 3px;
-    color: $grey-50;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -22,15 +22,15 @@
   }
 
   &:disabled::after {
-    background-color: $grey-10;
-    border-color: $grey-10;
+    background-color: $ds-grey-30;
+    border-color: $ds-grey-30;
     border-radius: 3px;
     content: '';
     cursor: default;
   }
 
   &:disabled:hover::after {
-    border-color: $grey-10;
+    border-color: $ds-grey-30;
   }
 
   &[readonly] {
@@ -44,14 +44,14 @@
   }
 
   &:hover::after {
-    border-color: $grey-50;
+    border-color: $ds-grey-20;
   }
 
   &:checked {
     @include icon(check);
 
     &::before {
-      color: $grey-50;
+      color: $ds-grey-20;
       font-size: $h6;
       left: 3px;
       position: absolute;
@@ -79,9 +79,9 @@
 
   &::after {
     background-color: $white;
-    border: 1px solid $grey-15;
+    border: 1px solid $ds-grey-30;
     border-radius: 3px;
-    color: $grey-50;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -92,15 +92,15 @@
   }
 
   &:disabled::after {
-    background-color: $grey-10;
-    border-color: $grey-10;
+    background-color: $ds-grey-30;
+    border-color: $ds-grey-30;
     border-radius: 3px;
     content: '';
     cursor: default;
   }
 
   &:disabled:hover::after {
-    border-color: $grey-10;
+    border-color: $ds-grey-30;
   }
 
   &[readonly] {
@@ -114,14 +114,14 @@
   }
 
   &:hover::after {
-    border-color: $grey-50;
+    border-color: $ds-grey-20;
   }
 
   &:checked {
     @include icon(check);
 
     &::before {
-      color: $grey-50;
+      color: $ds-grey-20;
       font-size: $h6;
       left: 3px;
       position: absolute;
@@ -152,7 +152,7 @@
 }
 
 .checkbox-blue[type=checkbox]:checked {
-  background-color: $blue-70;
+  background-color: $ds-blue-40;
 }
 
 /* overrides, remove when deprecation above rule disapear */

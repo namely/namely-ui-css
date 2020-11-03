@@ -24,7 +24,7 @@ $select-height: 3.25rem;
 
 .Select-control {
   background-color: $white;
-  border: 1px solid $grey-10;
+  border: 1px solid $ds-grey-30;
   border-radius: 3px;
   color: $grey-25;
   cursor: default;
@@ -71,7 +71,7 @@ $select-height: 3.25rem;
 }
 
 .has-value > .Select-control > .Select-placeholder {
-  color: $grey-75;
+  color: $ds-grey-60;
 }
 
 .Select-input > input {
@@ -120,7 +120,7 @@ $select-height: 3.25rem;
 
 .Select-arrow {
   @include icon(arrow-double);
-  color: $blue-70;
+  color: $ds-blue-40;
   position: absolute;
   right: 10px;
   top: 9px;
@@ -128,7 +128,7 @@ $select-height: 3.25rem;
 
 .Select-menu-outer {
   background-color: $white;
-  border: 1px solid $grey-10;
+  border: 1px solid $ds-grey-30;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   box-sizing: border-box;
@@ -153,7 +153,7 @@ $select-height: 3.25rem;
   padding: 8px 10px;
 
   &.is-focused {
-    background-color: $grey-10;
+    background-color: $ds-grey-30;
   }
 }
 
@@ -188,7 +188,7 @@ $select-height: 3.25rem;
 .Select-item-label {
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
-  color: $grey-75;
+  color: $ds-grey-60;
   cursor: default;
   padding: 3px 5px;
 
@@ -208,9 +208,9 @@ $select-height: 3.25rem;
 
 .Select-item-icon:hover,
 .Select-item-icon:focus {
-  background-color: $grey-5;
+  background-color: $ds-grey-20;
 }
 
 .Select-item-icon:active {
-  background-color: $grey-5;
+  background-color: $ds-grey-20;
 }
