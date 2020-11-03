@@ -41,7 +41,7 @@ npm version [<new version> | major | minor | patch]
 
 2. `git push upstream master --tags` this adds a new release to the github tags.
 
-3. Open https://github.com/namely/@namely/ui-css/releases and click Edit on the right hand side of the "Latest Release".
+3. Open https://github.com/namely/namely-ui-css/releases and click Edit on the right hand side of the "Latest Release".
 For the release description add relevant commit messages.
 
 4. Publish updated module to npm:
