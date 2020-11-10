@@ -1,7 +1,7 @@
 {
   "name": "@namely/ui-css",
   "version": "1.2.0",
-  "description": "``` npm install @namely/ui-css npm run build ```",
+  "description": "",
   "main": "css/styles.css",
   "scripts": {
     "prebuild": "sass scss/namely-ui.scss css/styles.css",
