@@ -32,18 +32,11 @@ For now, wrap your markup in a `.namely-ui` container:
 # Release
 For all releases, a maintainer will complete the following steps:
 
-1. Update the version, commit it, and tag it (all of these things will happen with the following command):
+1. Update the version in the package.json, commit it and merge your branch. 
 
-```
-yarn version [<new version> | major | minor | patch]
-```
+2. In Github go to `Tags` > `Releases` and create a new release with the new version. 
 
-2. `git push upstream master --tags` this adds a new release to the github tags.
-
-3. Open https://github.com/namely/namely-ui-css/releases and click Edit on the right hand side of the "Latest Release".
-For the release description add relevant commit messages.
-
-4. Publish updated module:
+3. In the command line, on the latest pulled down master branch, publish the updated module:
 ```
 yarn publish
 ```
