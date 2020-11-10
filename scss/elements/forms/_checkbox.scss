@@ -10,8 +10,8 @@
   &::after {
     background-color: $white;
     border: 1px solid $ds-grey-30;
-    border-radius: 2px;
-    color: $ds-grey-30;
+    border-radius: 3px;
+    color: $ds-grey-20;
     content: '';
     cursor: pointer;
     display: block;
@@ -49,10 +49,9 @@
 
   &:checked {
     @include icon(check);
-    background-color: $ds-blue-40;
 
     &::before {
-      color: $white;
+      color: $ds-grey-20;
       font-size: $h6;
       left: 3px;
       position: absolute;
