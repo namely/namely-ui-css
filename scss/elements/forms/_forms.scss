@@ -187,14 +187,13 @@ select {
 [type=radio] {
   -webkit-appearance: none;
   background: none;
-  border: 0;
   height: $space-3;
   padding: 0;
   position: relative;
   width: $space-3;
 
   &::after {
-    border: 1px solid $ds-grey-30;
+    border: 1px solid $ds-grey-40;
     border-radius: 50%;
     color: $ds-grey-20;
     content: '';
@@ -222,7 +221,7 @@ select {
   }
 
   &:checked::before {
-    background: $ds-grey-20;
+    background: $ds-blue-40;
     border: 0;
     border-radius: 5px;
     content: '';
