@@ -1,4 +1,7 @@
 # Namely UI CSS
+ 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cfff7cde77b54591bab8222fd57c608e)](https://app.codacy.com/gh/namely/namely-ui-css/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/cfff7cde77b54591bab8222fd57c608e)](https://app.codacy.com/gh/namely/namely-ui-css/dashboard)
 
 ```
 yarn install @namely/ui-css
